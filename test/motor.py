@@ -7,7 +7,7 @@ from nxt.motor import *
 
 def spin_around(b):
     m_left = Motor(b, PORT_B)
-    m_left.turn (127, 360)
+    m_left.turn(127, 360)
     m_right = Motor(b, PORT_C)
     m_right.turn(127, 360)
 
